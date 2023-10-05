@@ -1,195 +1,568 @@
-<table width="100%">
-    <tr>
-        <td style="vertical-align:top">
-            <ul>
-                <li>
-                    <a href="../profile/index.html">Account</a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="../home.html">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Calendar</a>
-                </li>
-                <li>
-                    <a href="#">Inbox</a>
-                </li>
-                <li>
-                    <a href="#">History</a>
-                </li>
-                <li>
-                    <a href="#">Studio</a>
-                </li>
-                <li>
-                    <a href="#">Commons</a>
-                </li>
-                <li>
-                    <a href="#">Help</a>
-                </li>
-              </ul>
-        </td>
-        <td style="vertical-align:top">
-            <ul>
-                <li>
-                  <a href="../home.html">Home</a>
-                </li>
-                <li>
-                  <a href="#">Modules</a>
-                </li>
-                <li>
-                  <a href="#">Piazza</a>
-                </li>
-                <li>
-                  <a href="#">Zoom Meetings</a>
-                </li>
-                <li>
+<html>
+    <head>
+        <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css" rel="stylesheet">
+        <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="../index.css" rel="stylesheet"/>
+        
+    </head>
+    <body>
+        <div class="container-fluid float-left">
+        <div class="row">
+            <div class="col-1 border"; >
+                
+                    <ul class = "kanbas-navagator list-group">
+                        <a href="../profile/index.html">
+                            <li class="list-group-item active pt-4">
+                                
+                                <img src="../Northeastern-University-Emblem.png" width="60" >
+                            </li>
+                        </a>
+                        <a href="../profile/index.html">
+                            <li class="list-group-item pt-3">
+                            
+                                        <i class="fa-solid fa-circle-user fa-3x "></i>
+                                        Account
+                                    
+                                
+                            </li>
+                        </a>
+                        
+                        <a href="../dashboard.html">
+                            <li class="list-group-item "> 
+                                <i class="text-danger fa-solid fa-gauge fa-2x"></i>
+                                Dashboard
+                            </li>
+                        </a>
+
+                        <a href="../home.html">
+                            <li class="list-group-item">
+                                <i class="text-danger fa-solid fa-book fa-2x"></i>
+                                    Courses
+                            </li>
+                        </a>
+                        
+                        <a href="#">
+                            <li class="list-group-item"> 
+                                <i class="text-danger fa-solid fa-calendar-days fa-2x"></i>
+                                Calendar
+                            </li>
+                        </a>
+
+                        <a href="#">
+                            <li class="list-group-item"> 
+                                <i class="text-danger fa-solid fa-envelope-open-text fa-2x"></i>
+                                <br>
+                                Inbox
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item"> 
+                                <i class="text-danger fa-regular fa-clock fa-2x"></i>
+                                History     
+                            </li>
+                        </a>    
+                        
+                        <a href="#">
+                            <li class="list-group-item">  
+                                <i class="text-danger fa-brands fa-youtube fa-2x"></i>
+                                Studio
+                            </li>
+                        </a>
+                        
+                        <a href="#">
+                            <li class="list-group-item">  
+                                <i class="text-danger fa-solid fa-circle-arrow-right fa-2x"></i>
+                                Commons
+                            </li>
+                        </a>
+    
+                        <a href="#" >
+                            <li class="list-group-item">  
+                                <i class="text-danger fa-regular fa-circle-question fa-2x"></i>
+                                <br>
+                                Help
+                            </li>
+                        </a>    
+
+                    </ul>
+            </div>
+            <div class="col-11 pe-4">
+                <div class="row ps-4">
+                    <nav class = "text-danger pt-2" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <i class="fa-solid fa-grip-lines text-danger pe-2 pt-1"></i>
+                          <li class="breadcrumb-item"><a class ="text-danger" href="home.html">CS4550.12631.202410</a></li>
+                          <li class="breadcrumb-item active text-black" aria-current="page">Assignments</li>
+                        </ol>
+                      </nav>
+    
+                        <hr/>
+                </div>
+                <div class="row">
+                <div class="col">
+                <ul class="col-2 wd-course-navigation list-group ">
+                    <li class="list-group-item">
+                        <a href="../home.html">Home</a>
+                    </li>
+                    <li class="list-group-item"><a href="#">Modules</a></li>
+                    <li class="list-group-item"><a href="#">Piazza</a></li>
+                    <li class="list-group-item"><a href="#">Zoom Meetings</a></li>
+                    <li class="list-group-item active"><a href="index.html">Assignments</a></li>
+                    <li class="list-group-item"><a href="../grades.html">Grades</a></li>
+                    <li class="list-group-item"><a href="#">People</a></li>
+                    <li class="list-group-item"><a href="#">Panopto Video</a></li>
+                    <li class="list-group-item"><a href="#">Discussions</a></li>
+                    <li class="list-group-item"><a href="#">Announcements</a></li>
+
+                    <li class="list-group-item"><a href="#">Pages</a></li>
+                    <li class="list-group-item"><a href="#">Files</a></li>
+                    <li class="list-group-item"><a href="#">Rubrics</a></li>
+                    <li class="list-group-item"><a href="#">Outcomes</a></li>
+
+                    <li class="list-group-item"><a href="#">Collaborations</a></li>
+                    <li class="list-group-item"><a href="#">Syllabus</a></li>
+                    <li class="list-group-item"><a href="#">Settings</a></li>
+
+                 </ul>
+            
+                </div>
+            <div class="col-10 ">
+                
                     
-                  <a href="index.html">Assignments</a>
-                </li>
-                <li>
-                  <a href="../grades.html">Grades</a>
-                </li>
-                <li>
-                    <a href="#">People</a>
-                </li>
-                <li>
-                    <a href="#">Panopto Video</a>
-                </li>
-                <li>
-                    <a href="#">Discussions</a>
-                </li>
-                <li>
-                    <a href="#">Announcements</a>
-                </li>
-                <li>
-                    <a href="#">Pages</a>
-                </li>
-                <li>
-                    <a href="#">Files</a>
-                </li>
-                <li>
-                    <a href="#">Rubrics</a>
-                </li>
-                <li>
-                    <a href="#">Outcomes</a>
-                </li>
-                <li>
-                    <a href="#">Collaborations</a>
-                </li>
-                <li>
-                    <a href="#">Syllabus</a>
-                </li>
-                <li>
-                    <a href="#">Settings</a>
-                </li>
-            </ul>
-        </td>
-        <td style="vertical-align:top">
-            <input type="text" id="text-fields-assignments-start" size="21" placeholder="Search for Assignments"/>
-            <button type="button">Group</button>
-            <button type="button">Assignment</button>
-            <select id="edit-assignment-dates">
-                <option selected value="edit-dates">Edit Assignment Dates</option>
-            </select>
-            <hr/>
+                    <div class="col-12">
+                <div class="float-end">
+                    <button type="button" class="btn btn-light  btn-sm">
+                        <i class="fa-solid fa-plus"></i>
+                         Group</button>
+                         <button type="button" class="btn btn-r btn-sm text-white">
+                            <i class="fa-solid fa-plus text-white"></i>
+                             Assignment</button>
+                        <button type="button" class="btn btn-light">
+                            <i class="fa fa-ellipsis-v pt-1"></i>
+                            </button>
+                        </div>
+                    <!--
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-sm d-inline-block" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        
+                        <ul class="dropdown-menu ">
+                          <li><a class="dropdown-item" href="#">Publish All</a></li>
+                          <li><a class="dropdown-item" href="#">Publish All modules and item</a></li>
+                          <li><a class="dropdown-item" href="#">Publish modules only</a></li>
+                          <li><a class="dropdown-item" href="#">UnPublish All</a></li>
+                        </ul>
+                    
+                      </div>
+                      -->
+                
+                <form>
+                    <div class="form-row">
+                      <div class="col-3">
+                        <input type="text" class="form-control mb-2 mr-sm-2" id="text-fields-assignments-start" size="21" aria-describedby="emailHelp" placeholder="Search for Assignment">    
+                      </div>
+                      
+                    </div>
+                  </form>
+                  <hr>
 
-            <h4>ASSIGNMENTS 40% of Total
-                <select id="edit">
-                    <option selected value="edit">Edit</option>
-                    <option value="speed">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="move-to">Move To...</option>
-                    <option value="send-to">Send To...</option>
-                    <option value="copy-to">Copy To...</option>
-                    <option value="share-to-commons">Share to Commons</option>
-                </select>
-            </h4>
+                    <br/>
+              
+                    <ul class="list-group module">
+                        <li class="list-group-item list-group-item-secondary" id="no-border">
+                            <i class="fa-solid fa-grip-vertical"></i> 
+                            <i class="fa-solid fa-caret-down px-1"></i> 
+                            Assignments
+                            <div class="float-end rounded-pill">
+                                40% of Total
+                                <i class="fa fa-plus px-2" ></i>
+                                <i class="fa fa-ellipsis-v pt-1"></i>
+                            </div>
+                        </li>
+        
+                    <!--
+                    <h4>ASSIGNMENTS 40% of Total
+                        <select id="edit">
+                            <option selected value="edit">Edit</option>
+                            <option value="speed">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="move-to">Move To...</option>
+                            <option value="send-to">Send To...</option>
+                            <option value="copy-to">Copy To...</option>
+                            <option value="share-to-commons">Share to Commons</option>
+                        </select>
+                    </h4>
+                    -->
+        
+                        <li class="list-group-item">
+                            <div class="wd-flex-row-container">
+                                <div class="bg-color-yellow  pt-3">
+                                    <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                    <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                                </div>
+                                <div class="pt-1">
+                                    <a class="text-black" href="edit.html"> A1 - ENV + HTML</a>
+                                    <br>
+                                    <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                                </div>
+                                <div class=" wd-flex-grow-1">
+                                    <div class="float-end pt-3">
+                                        <i class="fa fa-check-circle text-success  pe-3"></i>
+                                        <i class="fa fa-ellipsis-v pt-1"></i>
+                                    </div>
+                                </div>
+                              </div> 
+                        </li>
 
-            <ul>
-                <li><a href="edit.html">A1 - ENV + HTML</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">A2 - CSS + BOOTSTRAP</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">A3 - JS + REACT</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">A4 - STATE + REDUX</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">A5 - NODE + SESSION</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">A6 - MONGO + MONGOOSE</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-            </ul>
+                        <li class="list-group-item">
+                            <div class="wd-flex-row-container">
+                                <div class="bg-color-yellow  pt-3">
+                                    <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                    <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                                </div>
+                                <div class="pt-1">
+                                    <a class="text-black" href="edit.html"> A2 - CSS + BOOTSTRAP</a>
+                                    <br>
+                                    <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                                </div>
+                                <div class=" wd-flex-grow-1">
+                                    <div class="float-end pt-3">
+                                        <i class="fa fa-check-circle text-success  pe-3"></i>
+                                        <i class="fa fa-ellipsis-v pt-1"></i>
+                                    </div>
+                                </div>
+                              </div> 
+                        </li>
 
-            <h4>QUIZZES 10% of Total
-                <select id="edit">
-                    <option selected value="edit">Edit</option>
-                    <option value="speed">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="move-to">Move To...</option>
-                    <option value="send-to">Send To...</option>
-                    <option value="copy-to">Copy To...</option>
-                    <option value="share-to-commons">Share to Commons</option>
-                </select>
-            </h4>
+                        <li class="list-group-item">
+                            <div class="wd-flex-row-container">
+                                <div class="bg-color-yellow  pt-3">
+                                    <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                    <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                                </div>
+                                <div class="pt-1">
+                                    <a class="text-black" href="edit.html"> A3 - JS + REACT</a>
+                                    <br>
+                                    <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                                </div>
+                                <div class=" wd-flex-grow-1">
+                                    <div class="float-end pt-3">
+                                        <i class="fa fa-check-circle text-success  pe-3"></i>
+                                        <i class="fa fa-ellipsis-v pt-1"></i>
+                                    </div>
+                                </div>
+                              </div> 
+                        </li>
+                        
+                        <li class="list-group-item">
+                            <div class="wd-flex-row-container">
+                                <div class="bg-color-yellow  pt-3">
+                                    <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                    <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                                </div>
+                                <div class="pt-1">
+                                    <a class="text-black" href="edit.html"> A4 - STATE + REDUX</a>
+                                    <br>
+                                    <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                                </div>
+                                <div class=" wd-flex-grow-1">
+                                    <div class="float-end pt-3">
+                                        <i class="fa fa-check-circle text-success  pe-3"></i>
+                                        <i class="fa fa-ellipsis-v pt-1"></i>
+                                    </div>
+                                </div>
+                              </div> 
+                        </li>
 
-            <ul>
-                <li><a href="edit.html">Q1 - HTML</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">Q2 - CSS</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">Q3 - JS, ES6</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">Q4 - NODE</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">Q5 - MONGO</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-            </ul>
+                        <li class="list-group-item">
+                            <div class="wd-flex-row-container">
+                                <div class="bg-color-yellow  pt-3">
+                                    <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                    <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                                </div>
+                                <div class="pt-1">
+                                    <a class="text-black" href="edit.html"> A5 - NODE + SESSION</a>
+                                    <br>
+                                    <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                                </div>
+                                <div class=" wd-flex-grow-1">
+                                    <div class="float-end pt-3">
+                                        <i class="fa fa-check-circle text-success  pe-3"></i>
+                                        <i class="fa fa-ellipsis-v pt-1"></i>
+                                    </div>
+                                </div>
+                              </div> 
+                        </li>
+                        <li class="list-group-item">
+                            <div class="wd-flex-row-container">
+                                <div class="bg-color-yellow  pt-3">
+                                    <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                    <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                                </div>
+                                <div class="pt-1">
+                                    <a class="text-black" href="edit.html"> A6 - MONGO + MONGOOSE</a>
+                                    <br>
+                                    <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                                </div>
+                                <div class=" wd-flex-grow-1">
+                                    <div class="float-end pt-3">
+                                        <i class="fa fa-check-circle text-success  pe-3"></i>
+                                        <i class="fa fa-ellipsis-v pt-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+        
+                    <br/>
+                    <ul class="list-group module">
+                        <li class="list-group-item list-group-item-secondary" id="no-border">
+                            <i class="fa-solid fa-grip-vertical"></i> 
+                            <i class="fa-solid fa-caret-down px-1"></i> 
+                            QUIZZES 
+                            <div class="float-end">
+                                10% of Total
+                                <i class="fa fa-plus px-2" ></i>
+                                <i class="fa fa-ellipsis-v pt-1"></i>
+                            </div>
+                        </li>
+                    <!--
+                    <h4>
+                        <select id="edit">
+                            <option selected value="edit">Edit</option>
+                            <option value="speed">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="move-to">Move To...</option>
+                            <option value="send-to">Send To...</option>
+                            <option value="copy-to">Copy To...</option>
+                            <option value="share-to-commons">Share to Commons</option>
+                        </select>
+                    </h4>
+                    -->
+        
 
-            <h4>EXAMS 20% of Total
-                <select id="edit">
-                    <option selected value="edit">Edit</option>
-                    <option value="speed">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="move-to">Move To...</option>
-                    <option value="send-to">Send To...</option>
-                    <option value="copy-to">Copy To...</option>
-                    <option value="share-to-commons">Share to Commons</option>
-                </select>
-            </h4>
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Q1 - HTML</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Q2 - CSS</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Q3 - JS, ES6</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Q4 - NODE</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Q5 - MONGO</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
 
-            <ul>
-                <li><a href="edit.html">Midterm</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-                <li><a href="edit.html">Final</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-            </ul>
-
-            <h4>PROJECT 30% of Total
-                <select id="edit">
-                    <option selected value="edit">Edit</option>
-                    <option value="speed">Speed Grader</option>
-                    <option value="duplicate">Duplicate</option>
-                    <option value="delete">Delete</option>
-                    <option value="move-to">Move To...</option>
-                    <option value="send-to">Send To...</option>
-                    <option value="copy-to">Copy To...</option>
-                    <option value="share-to-commons">Share to Commons</option>
-                </select>
-            </h4>
-
-            <ul>
-                <li><a href="edit.html">Project</a></li>
-                <a href="#">Multiple Modules</a> | Not available yet
-            </ul>
-        </td>
-    </tr>
-</table>
+                    </ul>
+        
+                    <br>
+        
 
 
-
+                    <ul class="list-group module">
+                        <li class="list-group-item list-group-item-secondary" id="no-border">
+                            <i class="fa-solid fa-grip-vertical"></i> 
+                            <i class="fa-solid fa-caret-down px-1"></i> 
+                            EXAMS
+                            <div class="float-end">
+                                20% of Total
+                                <i class="fa fa-plus px-2" ></i>
+                                <i class="fa fa-ellipsis-v pt-1"></i>
+                            </div>
+                        </li>
+        
+                        <!--
+                    <h4>EXAMS 20% of Total
+                        <select id="edit">
+                            <option selected value="edit">Edit</option>
+                            <option value="speed">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="move-to">Move To...</option>
+                            <option value="send-to">Send To...</option>
+                            <option value="copy-to">Copy To...</option>
+                            <option value="share-to-commons">Share to Commons</option>
+                        </select>
+                    </h4>
+                    -->
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Midterm</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Final</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    </ul>
+        
+                    <br>
+        
+                    <ul class="list-group module">
+                        <li class="list-group-item list-group-item-secondary" id="no-border">
+                            <i class="fa-solid fa-grip-vertical"></i> 
+                            <i class="fa-solid fa-caret-down px-1"></i> 
+                            Project
+                            <div class="float-end">
+                                30% of Total
+                                <i class="fa fa-plus px-2" ></i>
+                                <i class="fa fa-ellipsis-v pt-1"></i>
+                            </div>
+                        </li>
+                    <!--
+                        <select id="edit">
+                            <option selected value="edit">Edit</option>
+                            <option value="speed">Speed Grader</option>
+                            <option value="duplicate">Duplicate</option>
+                            <option value="delete">Delete</option>
+                            <option value="move-to">Move To...</option>
+                            <option value="send-to">Send To...</option>
+                            <option value="copy-to">Copy To...</option>
+                            <option value="share-to-commons">Share to Commons</option>
+                        </select>
+                    </h4>
+                    -->
+        
+                    <li class="list-group-item">
+                        <div class="wd-flex-row-container">
+                            <div class="bg-color-yellow  pt-3">
+                                <i class="fa-solid fa-grip-vertical pe-3"></i> 
+                                <i class="fa-regular text-success fa-pen-to-square pe-3"></i>
+                            </div>
+                            <div class="pt-1">
+                                <a class="text-black" href="edit.html"> Project</a>
+                                <br>
+                                <a class="text-black" href="#">Multiple Modules</a> | Not available yet
+                            </div>
+                            <div class=" wd-flex-grow-1">
+                                <div class="float-end pt-3">
+                                    <i class="fa fa-check-circle text-success  pe-3"></i>
+                                    <i class="fa fa-ellipsis-v pt-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+         
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,200 +1,208 @@
-<table width="100%">
-    <tr>
-        <td style="vertical-align:top">
-            <ul>
-                <li>
-                    <a href="profile/index.html">Account</a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="home.html">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Calendar</a>
-                </li>
-                <li>
-                    <a href="#">Inbox</a>
-                </li>
-                <li>
-                    <a href="#">History</a>
-                </li>
-                <li>
-                    <a href="#">Studio</a>
-                </li>
-                <li>
-                    <a href="#">Commons</a>
-                </li>
-                <li>
-                    <a href="#">Help</a>
-                </li>
-              </ul>
-        </td>
-        <td style="vertical-align:top">
-            <ul>
-                <li>
-                  <a href="home.html">Home</a>
-                </li>
-                <li>
-                  <a href="#">Modules</a>
-                </li>
-                <li>
-                  <a href="#">Piazza</a>
-                </li>
-                <li>
-                  <a href="#">Zoom Meetings</a>
-                </li>
-                <li>
-                    
-                  <a href="assignments/index.html">Assignments</a>
-                </li>
-                <li>
-                  <a href="grades.html">Grades</a>
-                </li>
-                <li>
-                    <a href="#">People</a>
-                </li>
-                <li>
-                    <a href="#">Panopto Video</a>
-                </li>
-                <li>
-                    <a href="#">Discussions</a>
-                </li>
-                <li>
-                    <a href="#">Announcements</a>
-                </li>
-                <li>
-                    <a href="#">Pages</a>
-                </li>
-                <li>
-                    <a href="#">Files</a>
-                </li>
-                <li>
-                    <a href="#">Rubrics</a>
-                </li>
-                <li>
-                    <a href="#">Outcomes</a>
-                </li>
-                <li>
-                    <a href="#">Collaborations</a>
-                </li>
-                <li>
-                    <a href="#">Syllabus</a>
-                </li>
-                <li>
-                    <a href="#">Settings</a>
-                </li>
-            </ul>
-        </td>
-        <td style="vertical-align:top">
-            <select id="gradebooks">
-                <option selected value="GRADEBOOK">Gradebook</option>
-            </select>
-            <button type="button">Import</button>
-            <select id="exports">
-                <option selected value="EXPORT">Export</option>
-            </select>
-            <button type="button">Configure</button>
-            
-            <h2>Student Names</h2>
-            <input type= "text" placeholder= "Search Students" id= "search-students"/><br/>
-            
-            <h2>Assignment Names</h2>
-            <input type= "text" placeholder= "Search Assignments" id= "search-assignments"/>
-            <br/>
-            <br/>
-            <button type="button">Apply Filters</button>
-            <br/>
-            <br/>
-            
-            <table border="1" width="100%">
-                <thead>
-                <tr>
-                    <th>Student Name</th>
-                    <th>A1
-                        <br/>
-                        Out of 100
-                    </th>
-                    <th>A2
-                        <br/>
-                        Out of 100
-                    </th>
-                    <th>A3
-                        <br/>
-                        Out of 100
-                    </th>
-                    <th>A4
-                        <br/>
-                        Out of 100
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Bob Allen</td>
-                    <td style="text-align: center">93</td>
-                    <td style="text-align: center">
-                        <input type="text"
-                        id="text-fields-grade-start"
-                        placeholder=94
-                        value=94
-                        style="text-align: center"
-                        size="3"
-                        />
-                    </td>
-                    <td style="text-align: center">85</td>
-                    <td style="text-align: center">76</td>
-                </tr>
-                <tr>
-                    <td>Miley Cyrus</td>
-                    <td style="text-align: center">
-                        <input type="text"
-                        id="text-fields-grade-start"
-                        placeholder="88"
-                        value="88"
-                        style="text-align: center"
-                        size="3"
-                        />
-                    </td>
-                    <td style="text-align: center">100</td>
-                    <td style="text-align: center">92</td>
-                    <td style="text-align: center">91</td>
-                </tr>
-                <tr>
-                    <td>Megan Fox</td>
-                    <td style="text-align: center">79</td>
-                    <td style="text-align: center">100</td>
-                    <td style="text-align: center">
-                        <input type="text"
-                        id="text-fields-grade-start"
-                        placeholder="90"
-                        value="90"
-                        style="text-align: center"
-                        size="3"
-                        />
-                    </td>
-                    <td style="text-align: center">97</td>
-                </tr>
-                <tr>
-                    <td>Margot Robbie</td>
-                    <td style="text-align: center">94</td>
-                    <td style="text-align: center">95</td>
-                    <td style="text-align: center">91</td>
-                    <td style="text-align: center">
-                        <input type="text"
-                        size="3"
-                        id="text-fields-grade-start"
-                        placeholder="97"
-                        value="97"
-                        style="text-align: center"
-                        />
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </td>
-    </tr>
-</table>
+<html>
+    <head>
+        <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.css" rel="stylesheet">
+        <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="index.css" rel="stylesheet"/>
+        
+    </head>
+    <body>
+        <div class="container-fluid float-left">
+        <div class="row">
+            <div class="col-1 border"; >
+                
+                    <ul class = "kanbas-navagator list-group">
+                        <a href="profile/index.html">
+                            <li class="list-group-item pt-4">
+                                
+                                <img src="Northeastern-University-Emblem.png" width="60" >
+                            </li>
+                        </a>
+                        <a href="profile/index.html">
+                            <li class="list-group-item pt-3">
+                            
+                                        <i class="fa-solid fa-circle-user fa-3x "></i>
+                                        Account
+                                    
+                                
+                            </li>
+                        </a>
+                        
+                        <a href="dashboard.html">
+                            <li class="list-group-item "> 
+                                <i class="text-danger fa-solid fa-gauge fa-2x"></i>
+                                Dashboard
+                            </li>
+                        </a>
 
+                        <a href="home.html">
+                            <li class="list-group-item">
+                                <i class="text-danger fa-solid fa-book fa-2x"></i>
+                                    Courses
+                            </li>
+                        </a>
+                        
+                        <a href="#">
+                            <li class="list-group-item"> 
+                                <i class="text-danger fa-solid fa-calendar-days fa-2x"></i>
+                                Calendar
+                            </li>
+                        </a>
+
+                        <a href="#">
+                            <li class="list-group-item"> 
+                                <i class="text-danger fa-solid fa-envelope-open-text fa-2x"></i>
+                                <br>
+                                Inbox
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item"> 
+                                <i class="text-danger fa-regular fa-clock fa-2x"></i>
+                                History     
+                            </li>
+                        </a>    
+                        
+                        <a href="#">
+                            <li class="list-group-item">  
+                                <i class="text-danger fa-brands fa-youtube fa-2x"></i>
+                                Studio
+                            </li>
+                        </a>
+                        
+                        <a href="#">
+                            <li class="list-group-item">  
+                                <i class="text-danger fa-solid fa-circle-arrow-right fa-2x"></i>
+                                Commons
+                            </li>
+                        </a>
+    
+                        <a href="#" >
+                            <li class="list-group-item">  
+                                <i class="text-danger fa-regular fa-circle-question fa-2x"></i>
+                                <br>
+                                Help
+                            </li>
+                        </a>    
+
+                    </ul>
+            </div>
+            <div class="col-11 pe-4">
+                <div class="row ps-4">
+                    <nav class = "text-danger pt-2" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <i class="fa-solid fa-grip-lines text-danger pe-2 pt-1"></i>
+                          <li class="breadcrumb-item"><a class ="text-danger" href="home.html">CS4550.12631.202410</a></li>
+                          <li class="breadcrumb-item active text-black" aria-current="page">Grades</li>
+                        </ol>
+                      </nav>
+    
+                        <hr/>
+                </div>
+                <div class="row">
+                <div class="col">
+                <ul class="col-2 wd-course-navigation list-group ">
+                    <li class="list-group-item">
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li class="list-group-item"><a href="#">Modules</a></li>
+                    <li class="list-group-item"><a href="#">Piazza</a></li>
+                    <li class="list-group-item"><a href="#">Zoom Meetings</a></li>
+
+                    <li class="list-group-item"><a href="assignments/index.html">Assignments</a></li>
+                    <li class="list-group-item active"><a href="grades.html">Grades</a></li>
+                    <li class="list-group-item"><a href="#">People</a></li>
+                    <li class="list-group-item"><a href="#">Panopto Video</a></li>
+                    <li class="list-group-item"><a href="#">Discussions</a></li>
+   
+                    <li class="list-group-item"><a href="#">Announcements</a></li>
+
+                    <li class="list-group-item"><a href="#">Pages</a></li>
+                    <li class="list-group-item"><a href="#">Files</a></li>
+                    <li class="list-group-item"><a href="#">Rubrics</a></li>
+                    <li class="list-group-item"><a href="#">Outcomes</a></li>
+
+                    <li class="list-group-item"><a href="#">Collaborations</a></li>
+                    <li class="list-group-item"><a href="#">Syllabus</a></li>
+                    <li class="list-group-item"><a href="#">Settings</a></li>
+
+                 </ul>
+            
+                </div>
+            <div class="col-10 ">
+                
+                    
+                    <div class="col-12">
+                <div class="float-end">
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fa-solid fa-file-import"></i>
+                         Import</button>
+                         <button type="button" class="btn btn-sm ">
+                            <i class="fa-solid fa-file-export"></i>
+                             Export</button>
+                             
+                        <button type="button" class="btn  btn-lg btn-light">
+                            <i class="fa-solid fa-gear"></i>
+                            </button>
+                        </div>
+                        <br/>
+                        <br/>
+                        <table class="table table-bordered">
+                            <tr class="table-secondary font-weight-bold" ><th class="font-weight-bold">Student Name</th><td style="text-align: center">A1
+                                <br/>
+                                Out of 100
+                            </td>
+                            <td style="text-align: center">A2
+                                <br/>
+                                Out of 100
+                            </td>
+                            <td style="text-align: center">A3
+                                <br/>
+                                Out of 100
+                            </td>
+                            <td style="text-align: center">A4
+                                <br/>
+                                Out of 100
+                            </td>
+                            </tr>
+                            <tbody>
+                            <tr class="table-default" >
+                                <td>Bob Allen</td>
+                                <td style="text-align: center">100</td>
+                                <td style="text-align: center">92</td>
+                                <td style="text-align: center">
+                                  <div class="input-group " style="text-align: center; margin-right: none;">
+                                    <input type="text" class="form-control " style="text-align: center; margin-right: none;">
+                                    <button class="btn" style="text-align: center; margin-right: none;"><i class="fa-solid fa-arrow-right"></i></button>
+                                  
+                                  </div>
+                                  
+                                <td style="text-align: center"> 84</td>
+                            </tr>
+                            <tr class="table-secondary" >
+                                <td >Miley Cyrus</td>
+                                <td style="text-align: center">99</td>
+                                <td style="text-align: center">77</td>
+                                <td style="text-align: center">65</td>
+                                <td style="text-align: center">89</td>
+                            </tr>
+                            <tr class="table-default"><td>Megan Fox</td><td style="text-align: center">100</td>
+                                <td style="text-align: center">82</td>
+                                <td style="text-align: center">68</td>
+                                <td style="text-align: center">83</td>
+                            </tr>
+                            <tr class="table-secondary"><td>Margot Robbie</td><td style="text-align: center">97</td>
+                                <td style="text-align: center">90</td>
+                                <td style="text-align: center">99</td>
+                                <td style="text-align: center">95</td>
+                            </tr>
+                            </tbody>
+                            
+                         </table>
+            </div>
+            </div>
+         
+        </div>
+    </div>
+    </body>
+</html>
 
