@@ -12,7 +12,7 @@ function AssignmentEditor() {
   const { courseId } = useParams();
   const navigate = useNavigate();
   const handleSave = () => {
-    console.log("Actually saving assignment TBD in later assignments");
+    console.log("Actually saving assignment TBD in later assignments d");
     navigate(`/Kanbas/Courses/${courseId}/Assignments`);
   };
   return (
