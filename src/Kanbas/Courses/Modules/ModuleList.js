@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import db from "../../Database";
-import "/Users/dillianpica/2023/fall/webdev/kanbas-react-web-app/src/Kanbas/index.css"
+import "./index.css"
 
 
 function ModuleList() {

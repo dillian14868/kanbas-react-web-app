@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import db from "../../Database";
-import "/Users/dillianpica/2023/fall/webdev/kanbas-react-web-app/src/Kanbas/index.css"
+import "./index.css"
 import { faEllipsisVertical, faPlus } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
