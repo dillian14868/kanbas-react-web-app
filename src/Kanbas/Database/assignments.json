@@ -1,0 +1,38 @@
+[
+    { "_id": "RS1010", "course":  "RS101",
+      "title": "Rocket Propulsion 1", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1020", "course":  "RS102",
+      "title": "Aerodynamics 1", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1030", "course":  "RS103",
+      "title": "Spacecraft Design 1", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1011", "course":  "RS101",
+      "title": "Rocket Propulsion 2", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1021", "course":  "RS102",
+      "title": "Aerodynamics 2", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1031", "course":  "RS103",
+      "title": "Spacecraft Design 2", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1012", "course":  "RS101",
+      "title": "Rocket Propulsion 3", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1022", "course":  "RS102",
+      "title": "Aerodynamics 3", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    },
+    { "_id": "RS1032", "course":  "RS103",
+      "title": "Spacecraft Design 3", "done": true, "available": "Oct 16 at 11:00pm", "due": "Oct 17 at 11:00pm",
+      "points": 100
+    }
+  ]
