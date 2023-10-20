@@ -5,6 +5,7 @@ import logo from "../Northeastern-University-Emblem.png";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCircleUser, faGauge, faBook, faCalendarDays, faEnvelopeOpenText, faClock, 
   faPlay, faCircleArrowRight, faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
+  import React from 'react';
 
 
 function KanbasNavigation() {

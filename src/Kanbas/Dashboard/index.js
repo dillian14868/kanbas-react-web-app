@@ -4,6 +4,7 @@ import img0 from "./amethyst.jpeg";
 import img1 from "./azure.jpeg";
 import img2 from "./crimson.jpeg";
 import "./index.css";
+import React from 'react';
 
 
 function Dashboard() {

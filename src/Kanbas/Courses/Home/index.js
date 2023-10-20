@@ -1,5 +1,6 @@
 import ModuleList from "../Modules/ModuleList";
 import "/Users/dillianpica/2023/fall/webdev/kanbas-react-web-app/src/Kanbas/index.css"
+import React from 'react';
 
 
 function Home() {

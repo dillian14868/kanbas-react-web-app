@@ -1,3 +1,4 @@
+import React from 'react';
 function ES5Functions() {
     function add (a, b) {
         return a + b;

@@ -10,6 +10,7 @@ import Destructing from "./Destructing";
 import FunctionDestructing from "./FunctionDestructing";
 import WorkingWithFunctions from "./WorkingWithFunctions";
 import WorkingWithArrays from "./WorkingWithArrays";
+import React from 'react';
 
 function JavaScript() {
    console.log('Hello World!');
