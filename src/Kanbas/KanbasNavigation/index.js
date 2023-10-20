@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./index.css";
 import logo from "../Northeastern-University-Emblem.png";
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCircleUser, faGauge, faBook, faCalendarDays, faEnvelopeOpenText, faClock, 
   faPlay, faCircleArrowRight, faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
   import React from 'react';
@@ -19,7 +18,7 @@ function KanbasNavigation() {
             <div class="col-1 border">
     <ul className="kanbas-navagator list-group " style={{ width: 150 }}>
     <li>
-     <img src={logo} width="80" />
+     <img src={logo} width="80" alt="img"/>
      </li>
       {links.map((link, index) => (
         <li class="list-group-item.active  pt-4">

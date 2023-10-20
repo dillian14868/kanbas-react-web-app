@@ -22,7 +22,7 @@ function Dashboard() {
           <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} className="list-group-item">
             <div class="col mb-4">
               <div class="card h-100 ">
-              <img src={photos[index]} class="card-img-top" />
+              <img src={photos[index]} class="card-img-top" alt="img"/>
                   <div class="card-body ">
                       
                       <p class="card-title bg-color-blue text-primary">{course.name}</p>

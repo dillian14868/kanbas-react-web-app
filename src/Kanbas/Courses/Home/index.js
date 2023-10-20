@@ -23,27 +23,27 @@ function Home() {
                         
                         <br/>
                         <ul class="list-group text-black course-content bg-dark-subtle" style={{fontSize: 10}}>
-                            <li class="list-group-item text-black  bg-dark-subtle mb-1"><a href="#">
+                            <li class="list-group-item text-black  bg-dark-subtle mb-1">
                                 <i class="fa-solid fa-file-import"></i>
-                                Import Existing Content</a></li>
-                            <li class="list-group-item text-black mb-1"><a href="#">
+                                Import Existing Content</li>
+                            <li class="list-group-item text-black mb-1">
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                Import From Commons</a></li>
-                            <li class="list-group-item text-black mb-1"><a href="#">
+                                Import From Commons</li>
+                            <li class="list-group-item text-black mb-1">
                                 <i class="fa-regular fa-life-ring"></i>
-                                Choose Home Page</a></li>
-                            <li class="list-group-item text-black mb-1"><a href="#">
+                                Choose Home Page</li>
+                            <li class="list-group-item text-black mb-1">
                                 <i class="fa-solid fa-chart-column"></i>
-                                View Course Stream</a></li>
-                            <li class="list-group-item text-black mb-1"><a href="#">
+                                View Course Stream</li>
+                            <li class="list-group-item text-black mb-1">
                                 <i class="fa-solid fa-bullhorn"></i>
-                                New Announcement</a></li>
-                            <li class="list-group-item text-black mb-1"><a href="#">
+                                New Announcement</li>
+                            <li class="list-group-item text-black mb-1">
                                 <i class="fa-solid fa-chart-column"></i>
-                                New Analytics</a></li>
-                            <li class="list-group-item text-black"><a href="#">
+                                New Analytics</li>
+                            <li class="list-group-item text-black">
                                 <i class="fa-regular fa-bell"></i>
-                                View Course Notifications</a></li>
+                                View Course Notifications</li>
                         </ul>
 
                         
@@ -51,10 +51,10 @@ function Home() {
                             <span class="left">
                                 <p class="thick pt-3 small">Comming Up
                                     <br></br>
-                            <a class=" text-danger" href="#">
+                           
                                 <i class="fa-solid fa-calendar-day"></i>
                                 
-                                View Calendar</a>
+                                View Calendar
                                 </p>
                             </span>
                         
@@ -62,15 +62,15 @@ function Home() {
                         
                         <hr/>
                         <ul class="list-group comming-up small">
-                            <li class="list-group-item "><a href="#">
+                            <li class="list-group-item ">
                                 <i class="fa-solid fa-calendar-day pe-2"></i>
                                 Lecture 
                                 <p class="ps-4"> CS4550.12631.202410 Sep 7 at
                                 <br/>
                                 11:45am
                                 </p>
-                            </a></li>
-                            <li class="list-group-item"><a href="#">
+                            </li>
+                            <li class="list-group-item">
                                 <i class="fa-solid fa-calendar-day pe-2"></i>
                                 Lecture 
                                 <p class="ps-4"> 
@@ -78,15 +78,15 @@ function Home() {
                                 <br/>
                                 11:45am
                                 </p>
-                            </a></li>
-                            <li class="list-group-item"><a href="#"><i class="fa-solid fa-calendar-day pe-2"></i>
+                            </li>
+                            <li class="list-group-item"><i class="fa-solid fa-calendar-day pe-2"></i>
                                 Lecture 
                                 <p class="ps-4"> 
                                 CS5610 06 
                                 <br/>
                                 Sep 11 at 6pm
                                 </p>
-                            </a></li>
+                            </li>
                         </ul>
                 </div>
             </div>
