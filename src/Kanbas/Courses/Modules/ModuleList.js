@@ -8,19 +8,18 @@ function ModuleList() {
   const { courseId } = useParams();
   const modules = db.modules;
   return (
-    <ul className="list-group module start-start ">
-      {
-       modules
-       .filter((module) => module.course === courseId)
-         .map((module, index) => (
-           <li key={index} className="list-group-item list-group-item-secondary" id="no-border"
-           style={{paddingbottom: 100}}>
-             <h3>{module.name}</h3>
-             <p>{module.description}</p>
-           </li>
-      ))
-      }
-    </ul>
+    
+   <ul className="list-group module start-start ">
+        {modules
+          .filter((module) => module.course === courseId)
+          .map((module, index) => (
+            <li key={index} className="list-group-item list-group-item-secondary" id="no-border"
+              style={{ paddingbottom: 100 }}>
+              <h3>{module.name}</h3>
+              <p>{module.description}</p>
+            </li>
+          ))}
+      </ul>
   );
 }
 export default ModuleList;

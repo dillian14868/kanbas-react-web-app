@@ -4,6 +4,7 @@ import db from "../../Database";
 import "./index.css"
 import { faEllipsisVertical, faPlus } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 
 
@@ -12,8 +13,17 @@ function Assignments() {
   const assignments = db.assignments;
   const courseAssignments = assignments.filter(
     (assignment) => assignment.course === courseId);
+    console.log(courseAssignments)
   return (
     <>
+    <Breadcrumb>
+      <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+      <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+        Library
+      </Breadcrumb.Item>
+      <Breadcrumb.Item active>Data</Breadcrumb.Item>
+    </Breadcrumb>
+
     <div>
     <div class="float-end">
     <button type="button" class="btn btn-light  btn-sm float-end">
@@ -37,7 +47,7 @@ function Assignments() {
             <Link
               key={assignment._id}
               to={`/Kanbas/Courses/${courseId}/Assignments/${assignment._id}`}
-              className="list-group-item">
+              className="breadcrumb-active list-group-item ">
               {assignment.title}
             </Link>
           ))}
