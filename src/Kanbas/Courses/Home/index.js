@@ -6,10 +6,16 @@ function Home() {
   return (
 
     <div>
+      <div class="row">
+      <div class="col-8">
+      
       <h2>Home</h2>
-      <ModuleList />
-      <h2>Status</h2>
-      <div class="modules col-2 float-end">
+      
+        
+          <ModuleList />
+        </div>
+        <div class="col">
+      <div class="modules float-end">
                         <p >Course Status</p>
                         <div class="btn-group">
                             <button type="button" class="btn btn-secondary btn-sm ">
@@ -88,6 +94,8 @@ function Home() {
                                 </p>
                             </li>
                         </ul>
+                        </div>
+                        </div>
                 </div>
             </div>
       

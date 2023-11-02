@@ -3,42 +3,48 @@
     {
       "name": "Introduction to Rocket Propulsion",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS101"
+      "course": "RS101",
+      "_id": "RS101"
     },
     {
       "name": "Week 0",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS101"
+      "course": "RS201",
+      "_id": "RS201"
     },
     {
       "name": "Week 1",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS101"
+      "course": "RS301",
+      "_id": "RS301"
     },
     {
       "name": "Week 2",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS101"
+      "course": "RS401",
+      "_id": "RS401"
     },
     {
       "name": "Introduction to Aerodynamics",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS102"
+      "course": "RS102",
+      "_id": "RS102"
     },
     {
       "name": "Week 0",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS102"
+      "course": "RS102",
+      "_id": "RS102"
     },
     {
       "name": "Week 1",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS102"
+      "course": "RS202"
     },
     {
       "name": "Week 2",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS102"
+      "course": "RS302"
     },
     {
       "name": "Introduction to Spacecraft Design",
@@ -53,12 +59,12 @@
     {
       "name": "Week 1",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS103"
+      "course": "RS203"
     },
     {
       "name": "Week 2",
       "description": "Basic principles of rocket propulsion and rocket engines.",
-      "course": "RS103"
+      "course": "RS303"
     }
   ]
 

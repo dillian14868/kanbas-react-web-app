@@ -4,7 +4,9 @@ function Modules() {
   return (
     <div>
       <h2>Modules</h2>
-      <ModuleList />
+      <div class="col-10">
+        <ModuleList />
+      </div>
     </div>
   );
 }
