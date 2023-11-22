@@ -32,7 +32,10 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
             <button class="btn btn-success active" onClick={addNewCourse} >
               Add
             </button>
-            <button class="btn btn-primary active ms-3" onClick={updateCourse} >
+            <button class="btn btn-primary active ms-3" onClick={(event) => {
+                    event.preventDefault();
+                    updateCourse(course);
+                  }}>
               Update
             </button>
           </div>
@@ -61,7 +64,7 @@ function Dashboard({ courses, course, setCourse, addNewCourse,
                 <button class="btn btn-danger active ms-3"
                   onClick={(event) => {
                     event.preventDefault();
-                    deleteCourse(course._id);
+                    deleteCourse(course);
                   }}>
                   Delete
                 </button>
